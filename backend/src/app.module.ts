@@ -14,6 +14,7 @@ import { GifModule } from './gif/gif.module';
 import { ReactionModule } from './reaction/reaction.module';
 import { VoiceModule } from './voice/voice.module';
 import { NotificationModule } from './notification/notification.module';
+import { AppController } from './app.controller';
 
 @Module({
   imports: [
@@ -35,6 +36,6 @@ import { NotificationModule } from './notification/notification.module';
     VoiceModule,
     NotificationModule,
   ],
-  controllers: [],
+  controllers: [AppController],
 })
 export class AppModule {}

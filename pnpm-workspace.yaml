@@ -3,6 +3,22 @@ packages:
   - backend
   - electron
 
+allowBuilds:
+  '@nestjs/core': false
+  '@openrouter/sdk': false
+  '@parcel/watcher': false
+  '@prisma/engines': false
+  '@scarf/scarf': false
+  '@swc/core': false
+  bcrypt: false
+  better-sqlite3: false
+  electron: false
+  electron-winstaller: false
+  prisma: false
+  sharp: false
+  supabase: false
+  unrs-resolver: false
+
 onlyBuiltDependencies:
   - '@nestjs/core'
   - '@openrouter/sdk'
